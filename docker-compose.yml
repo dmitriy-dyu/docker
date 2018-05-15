@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  haproxy_a:
+    build: .
+    expose:
+      - "8080"
+    ports:
+      - "8081:80"
+
+  haproxy_b:
+    build: .
+    expose:
+      - "8080"
+    ports:
+      - "8082:80"
