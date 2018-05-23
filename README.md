@@ -1,6 +1,6 @@
 Nginx and HAProxy on Docker.
 
-To have it done:
+You need to do the following:
 - clone repo to any local machine
 - run `build.sh` script
 
